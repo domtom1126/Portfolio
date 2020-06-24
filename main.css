@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#landing {
+    padding: 10%;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #373f52;
+}
+
+#landing h1 {
+    color: #212529;
+}
+
+h1, p {
+    color: white;
+}
+
+a {
+    color: white!important;
+}
+
+a:hover {
+    color: lightgrey!important;
+}
+
+#about {
+    padding-top: 5%;
+    padding: 10%;
+}
+
+#projects {
+    padding: 10%;
+}
+
+#contact {
+    padding: 10%;
+}
+
+p.card-text {
+    color: black;
+}
