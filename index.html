@@ -1,77 +1,111 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Dominic Thomas Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body style="background-color: #f2f0f5;">
+<html lang="en">
 
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Dominic Thomas</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="mb-5 navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <ul class="nav justify-content-center fixed-top">
-        <li class="nav-item">
-          <a class="nav-link active lead" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link lead" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link lead" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link lead" href="resume.pdf">Resume</a>
-        </li>
-      </ul>
-    </div>
-    <div id="landing">
-      <div class="container">
-        <h1 class="display-4 text-center mb-0" >
-            Hi, I'm Dom
-        </h1>
-        <h3 class=" text-center text-muted mt-0 pb-0">Database Developer</h3>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
 
-    <div id="projects" class="container">
-      <h1 class="display-4">Projects</h1>
-      <p class="lead">Be sure to check out my <a href="">Philosophy of Code</a></p>
-      <div class="card">
-        <h5 class="card-header">Judge Database</h5>
-        <div class="card-body">
-          <h5 class="card-title lead">Python, Flask, HTML/CSS, Bootstrap, SQLite</h5>
-          <p class="card-text">User can search for judge name and statute. Returns total cases of that statute from the judge, and total cases from whole database</p>
-          <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card mt-5">
-        <h5 class="card-header">International Space Station Tracker</h5>
-        <div class="card-body">
-          <h5 class="card-title lead">Python, Flask, HTML/CSS, Bootstrap, SQLite</h5>
-          <p class="card-text">User can type their city and the app returns when the ISS will be going over your city next.</p>
-          <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+  <!-- Page Content -->
+  <section>
+    <div class=" mt-5 container">
+      <div class="row">
+        <div class="col-lg">
+          <h1 class="pt-5">Dominic Thomas <span class="lead text-muted">software developer</span></h1>
+          <hr>
+          <p class="lead">I like to work on backend of websites, servers. Make useful software for the world to use. Spread knowledge and information through code. Overall, change the world one line of code at a time. Code junkie.</p>
         </div>
       </div>
     </div>
-
-    <div id="contact" class="container">
-      <h1 class="display-4">Contact</h1>
-      <p>Tele number and email</p>
+  </section>
+  <section>
+    <div class=" mt-5 container">
+      <h1 class="pt-5">Projects</h1>
+      <hr>
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="pt-5" href="sdgf">ISS Tracker <span class="lead text-muted">Python, Selenium, Flask</span></h1>
+          <p>Web app allows users to track the International Space Station. Uses web scraping to get ISS flight data. Maths done to calculate speed and distance to your location.
+            <span><a target="_blank" href="https://github.com/domtom1126/ISS_Tracker">View here</a></span>
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="pt-5">Twitch To Tweet <span class="lead text-muted">Python, Selenium</span></h1>
+          <p>A terminal application to help streamers on Twitch reach more people. Whenever a user goes live on Twitch, Twitch to Tweet will automatically tweet out the link to their stream with some message.
+            <span><a target="_blank" href="https://github.com/domtom1126/twitch_to_tweet">View here</a></span>
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="pt-5">Calculate Volume <span class="lead text-muted">C#</span></h1>
+          <p>Terminal application to determine the volume of 3-d shapes. Measurements and shape are decided by the user.
+            <span><a target="_blank" href="https://github.com/domtom1126/calculateVolume">View here</a></span>
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="pt-5">Dealership Database <span class="lead text-muted">Python, Flask, SQLite</span></h1>
+          <p>Users can add cars to database. Work in progress...
+            <span><a target="_blank" href="https://github.com/domtom1126/dealership">View here</a></span>
+          </p>
+        </div>
+      </div>
     </div>
-
-    <div id="about" class="container">
-      <h1 class="display-4">About</h1>
-      <p class="lead">Thanks for stopping! I am a self taught developer, with some college but decided to take the self-taught route.
-      I am self-motivated, passionate and have a genuine love for all things code and the people that come with it.
-      </p>
+  </section>
+  <section>
+    <div class=" mt-5 container">
+      <div class="row">
+        <div class="col-lg">
+          <h1 class="pt-5" id="contact">Contact</h1>
+          <hr>
+          <p>Tele</p>
+          <p>Email</p>
+        </div>
+      </div>
     </div>
-  </body>
+  </section>
+  <!-- Bootstrap core JavaScript -->
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+<!--   <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
+</body>
+
 </html>
+

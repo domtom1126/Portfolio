@@ -1,65 +1,17 @@
-html {
-    scroll-behavior: smooth;
+body {
+  background-color : #fffcff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-#landing {
-    padding: 15%;
-    border-radius: 0px 0px 5px 5px;
-    background-color: #373f52;
+#profile-pic{
+    width: 100px;
+    height: 150px;
+    border-radius: 200px;
 }
 
-#landing h1 {
-    color: #212529;
-}
-
-h1, p {
-    color: #4b7696;
-}
-
-.display-4 {
-    color: #0a7aa5;
-}
-
-a {
-    color: white!important;
-}
-
-a:hover {
-    color: lightgrey!important;
-}
-
-#projects {
-    padding-top: 10%;
-    padding-bottom: 7%;
-}
-
-#about {
-    padding: 7%;
-}
-
-
-
-#contact {
-    padding: 7%;
-}
-
-.card {
-    border: none!important;
-}
-
-.card-body {
-
-  background-color:yellow;
-  box-shadow:10px 10px 10px 1px #2e3135;
-
-    background-color: #373f52;
-
-}
-
-.card-title {
-    color: white;
-}
-
-p.card-text {
-    color: white;
+h1 {
+    color: #2d3142;
 }
